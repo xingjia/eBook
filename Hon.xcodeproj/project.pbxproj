@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A130B58C18BA31880057E1BA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A130B58B18BA31880057E1BA /* CoreText.framework */; };
+		A130B58F18BA39ED0057E1BA /* read.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B58E18BA39ED0057E1BA /* read.png */; };
+		A130B59118BA3B840057E1BA /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59018BA3B840057E1BA /* library.png */; };
+		A130B59318BA3F1D0057E1BA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59218BA3F1D0057E1BA /* settings.png */; };
+		A130B59518BA3F260057E1BA /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59418BA3F260057E1BA /* bookmark.png */; };
+		A130B59718BA3F340057E1BA /* TOC.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59618BA3F340057E1BA /* TOC.png */; };
+		A130B59B18BA40D20057E1BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59818BA40D20057E1BA /* Default-568h@2x.png */; };
+		A130B59C18BA40D20057E1BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59918BA40D20057E1BA /* Default.png */; };
+		A130B59D18BA40D20057E1BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A130B59A18BA40D20057E1BA /* Default@2x.png */; };
+		A130B5A618BA41F40057E1BA /* A Book.txt in Resources */ = {isa = PBXBuildFile; fileRef = A130B5A418BA41F40057E1BA /* A Book.txt */; };
+		A130B5A718BA41F40057E1BA /* Another Book.txt in Resources */ = {isa = PBXBuildFile; fileRef = A130B5A518BA41F40057E1BA /* Another Book.txt */; };
+		A185E96818BCD9240059C0F0 /* honnoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A185E96718BCD9240059C0F0 /* honnoicon.png */; };
+		A198C71D18B6062E000AC770 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A198C71C18B6062E000AC770 /* LibraryViewController.m */; };
+		A198C72318B61186000AC770 /* TextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A198C72218B61186000AC770 /* TextProcessor.m */; };
+		A198C72618B6121F000AC770 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A198C72518B6121F000AC770 /* ReadViewController.m */; };
+		A198C72918B6198A000AC770 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A198C72818B6198A000AC770 /* PageContentViewController.m */; };
+		A198C72F18B64D82000AC770 /* VerticalTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A198C72E18B64D82000AC770 /* VerticalTextView.m */; };
 		A19B7D3918B5EA620016B3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D3818B5EA620016B3DA /* Foundation.framework */; };
 		A19B7D3B18B5EA620016B3DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D3A18B5EA620016B3DA /* CoreGraphics.framework */; };
 		A19B7D3D18B5EA620016B3DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D3C18B5EA620016B3DA /* UIKit.framework */; };
 		A19B7D4318B5EA620016B3DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A19B7D4118B5EA620016B3DA /* InfoPlist.strings */; };
 		A19B7D4518B5EA620016B3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D4418B5EA620016B3DA /* main.m */; };
 		A19B7D4918B5EA620016B3DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D4818B5EA620016B3DA /* AppDelegate.m */; };
-		A19B7D4C18B5EA620016B3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19B7D4A18B5EA620016B3DA /* Main.storyboard */; };
-		A19B7D4F18B5EA620016B3DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D4E18B5EA620016B3DA /* ViewController.m */; };
 		A19B7D5118B5EA620016B3DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19B7D5018B5EA620016B3DA /* Images.xcassets */; };
 		A19B7D5818B5EA620016B3DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D5718B5EA620016B3DA /* XCTest.framework */; };
 		A19B7D5918B5EA620016B3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D3818B5EA620016B3DA /* Foundation.framework */; };
 		A19B7D5A18B5EA620016B3DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19B7D3C18B5EA620016B3DA /* UIKit.framework */; };
-		A19B7D6218B5EA620016B3DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A19B7D6018B5EA620016B3DA /* InfoPlist.strings */; };
-		A19B7D6418B5EA620016B3DA /* HonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D6318B5EA620016B3DA /* HonTests.m */; };
+		A19B7D7B18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D6F18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.m */; };
+		A19B7D7C18B5EA760016B3DA /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D7118B5EA760016B3DA /* ECSlidingAnimationController.m */; };
+		A19B7D7D18B5EA760016B3DA /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D7418B5EA760016B3DA /* ECSlidingInteractiveTransition.m */; };
+		A19B7D7E18B5EA760016B3DA /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D7618B5EA760016B3DA /* ECSlidingSegue.m */; };
+		A19B7D7F18B5EA760016B3DA /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D7818B5EA760016B3DA /* ECSlidingViewController.m */; };
+		A19B7D8018B5EA760016B3DA /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D7A18B5EA760016B3DA /* UIViewController+ECSlidingViewController.m */; };
+		A19B7D8618B5EE9F0016B3DA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B7D8518B5EE9E0016B3DA /* MenuViewController.m */; };
+		A19B7D8818B5EEDF0016B3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19B7D8718B5EEDF0016B3DA /* Main.storyboard */; };
+		A19D309C18B7258F0054AF67 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19D309B18B7258F0054AF67 /* SettingViewController.m */; };
+		A19D309F18B725A80054AF67 /* BookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19D309E18B725A80054AF67 /* BookmarkViewController.m */; };
+		A19D30A218B726040054AF67 /* TOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19D30A118B726040054AF67 /* TOCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A130B58B18BA31880057E1BA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A130B58D18BA37020057E1BA /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../../../Downloads/font-awesome-4.0.3/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
+		A130B58E18BA39ED0057E1BA /* read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read.png; sourceTree = "<group>"; };
+		A130B59018BA3B840057E1BA /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		A130B59218BA3F1D0057E1BA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		A130B59418BA3F260057E1BA /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		A130B59618BA3F340057E1BA /* TOC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TOC.png; sourceTree = "<group>"; };
+		A130B59818BA40D20057E1BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A130B59918BA40D20057E1BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A130B59A18BA40D20057E1BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A130B5A418BA41F40057E1BA /* A Book.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "A Book.txt"; sourceTree = "<group>"; };
+		A130B5A518BA41F40057E1BA /* Another Book.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Another Book.txt"; sourceTree = "<group>"; };
+		A185625518BA21FE00F60181 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A185E96718BCD9240059C0F0 /* honnoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honnoicon.png; sourceTree = "<group>"; };
+		A198C71B18B6062E000AC770 /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		A198C71C18B6062E000AC770 /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
+		A198C72118B61186000AC770 /* TextProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextProcessor.h; sourceTree = "<group>"; };
+		A198C72218B61186000AC770 /* TextProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextProcessor.m; sourceTree = "<group>"; };
+		A198C72418B6121F000AC770 /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		A198C72518B6121F000AC770 /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		A198C72718B6198A000AC770 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		A198C72818B6198A000AC770 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		A198C72D18B64D82000AC770 /* VerticalTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTextView.h; sourceTree = "<group>"; };
+		A198C72E18B64D82000AC770 /* VerticalTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTextView.m; sourceTree = "<group>"; };
 		A19B7D3518B5EA620016B3DA /* Hon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19B7D3818B5EA620016B3DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A19B7D3A18B5EA620016B3DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +92,31 @@
 		A19B7D4618B5EA620016B3DA /* Hon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hon-Prefix.pch"; sourceTree = "<group>"; };
 		A19B7D4718B5EA620016B3DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A19B7D4818B5EA620016B3DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A19B7D4B18B5EA620016B3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A19B7D4D18B5EA620016B3DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A19B7D4E18B5EA620016B3DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A19B7D5018B5EA620016B3DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A19B7D5618B5EA620016B3DA /* HonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19B7D5718B5EA620016B3DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A19B7D5F18B5EA620016B3DA /* HonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HonTests-Info.plist"; sourceTree = "<group>"; };
-		A19B7D6118B5EA620016B3DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A19B7D6318B5EA620016B3DA /* HonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HonTests.m; sourceTree = "<group>"; };
+		A19B7D6E18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		A19B7D6F18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		A19B7D7018B5EA760016B3DA /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		A19B7D7118B5EA760016B3DA /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		A19B7D7218B5EA760016B3DA /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		A19B7D7318B5EA760016B3DA /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		A19B7D7418B5EA760016B3DA /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		A19B7D7518B5EA760016B3DA /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		A19B7D7618B5EA760016B3DA /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		A19B7D7718B5EA760016B3DA /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		A19B7D7818B5EA760016B3DA /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		A19B7D7918B5EA760016B3DA /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		A19B7D7A18B5EA760016B3DA /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		A19B7D8418B5EE9E0016B3DA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A19B7D8518B5EE9E0016B3DA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A19B7D8718B5EEDF0016B3DA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A19D309A18B7258F0054AF67 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A19D309B18B7258F0054AF67 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		A19D309D18B725A80054AF67 /* BookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkViewController.h; sourceTree = "<group>"; };
+		A19D309E18B725A80054AF67 /* BookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkViewController.m; sourceTree = "<group>"; };
+		A19D30A018B726040054AF67 /* TOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCViewController.h; sourceTree = "<group>"; };
+		A19D30A118B726040054AF67 /* TOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130B58C18BA31880057E1BA /* CoreText.framework in Frameworks */,
 				A19B7D3B18B5EA620016B3DA /* CoreGraphics.framework in Frameworks */,
 				A19B7D3D18B5EA620016B3DA /* UIKit.framework in Frameworks */,
 				A19B7D3918B5EA620016B3DA /* Foundation.framework in Frameworks */,
@@ -83,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				A19B7D3E18B5EA620016B3DA /* Hon */,
-				A19B7D5D18B5EA620016B3DA /* HonTests */,
 				A19B7D3718B5EA620016B3DA /* Frameworks */,
 				A19B7D3618B5EA620016B3DA /* Products */,
 			);
@@ -101,6 +165,7 @@
 		A19B7D3718B5EA620016B3DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A130B58B18BA31880057E1BA /* CoreText.framework */,
 				A19B7D3818B5EA620016B3DA /* Foundation.framework */,
 				A19B7D3A18B5EA620016B3DA /* CoreGraphics.framework */,
 				A19B7D3C18B5EA620016B3DA /* UIKit.framework */,
@@ -112,11 +177,28 @@
 		A19B7D3E18B5EA620016B3DA /* Hon */ = {
 			isa = PBXGroup;
 			children = (
+				A19B7D6D18B5EA760016B3DA /* ECSlidingViewController */,
 				A19B7D4718B5EA620016B3DA /* AppDelegate.h */,
 				A19B7D4818B5EA620016B3DA /* AppDelegate.m */,
-				A19B7D4A18B5EA620016B3DA /* Main.storyboard */,
-				A19B7D4D18B5EA620016B3DA /* ViewController.h */,
-				A19B7D4E18B5EA620016B3DA /* ViewController.m */,
+				A19B7D8418B5EE9E0016B3DA /* MenuViewController.h */,
+				A19B7D8518B5EE9E0016B3DA /* MenuViewController.m */,
+				A198C71B18B6062E000AC770 /* LibraryViewController.h */,
+				A198C71C18B6062E000AC770 /* LibraryViewController.m */,
+				A198C72418B6121F000AC770 /* ReadViewController.h */,
+				A198C72518B6121F000AC770 /* ReadViewController.m */,
+				A198C72718B6198A000AC770 /* PageContentViewController.h */,
+				A198C72818B6198A000AC770 /* PageContentViewController.m */,
+				A198C72D18B64D82000AC770 /* VerticalTextView.h */,
+				A198C72E18B64D82000AC770 /* VerticalTextView.m */,
+				A19D309A18B7258F0054AF67 /* SettingViewController.h */,
+				A19D309B18B7258F0054AF67 /* SettingViewController.m */,
+				A19D309D18B725A80054AF67 /* BookmarkViewController.h */,
+				A19D309E18B725A80054AF67 /* BookmarkViewController.m */,
+				A19D30A018B726040054AF67 /* TOCViewController.h */,
+				A19D30A118B726040054AF67 /* TOCViewController.m */,
+				A19B7D8718B5EEDF0016B3DA /* Main.storyboard */,
+				A198C72118B61186000AC770 /* TextProcessor.h */,
+				A198C72218B61186000AC770 /* TextProcessor.m */,
 				A19B7D5018B5EA620016B3DA /* Images.xcassets */,
 				A19B7D3F18B5EA620016B3DA /* Supporting Files */,
 			);
@@ -126,7 +208,20 @@
 		A19B7D3F18B5EA620016B3DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A130B59818BA40D20057E1BA /* Default-568h@2x.png */,
+				A130B59918BA40D20057E1BA /* Default.png */,
+				A130B59A18BA40D20057E1BA /* Default@2x.png */,
 				A19B7D4018B5EA620016B3DA /* Hon-Info.plist */,
+				A130B58E18BA39ED0057E1BA /* read.png */,
+				A185E96718BCD9240059C0F0 /* honnoicon.png */,
+				A130B5A418BA41F40057E1BA /* A Book.txt */,
+				A130B5A518BA41F40057E1BA /* Another Book.txt */,
+				A130B59018BA3B840057E1BA /* library.png */,
+				A130B59218BA3F1D0057E1BA /* settings.png */,
+				A130B59618BA3F340057E1BA /* TOC.png */,
+				A130B59418BA3F260057E1BA /* bookmark.png */,
+				A130B58D18BA37020057E1BA /* FontAwesome.otf */,
+				A185625518BA21FE00F60181 /* FontAwesome.ttf */,
 				A19B7D4118B5EA620016B3DA /* InfoPlist.strings */,
 				A19B7D4418B5EA620016B3DA /* main.m */,
 				A19B7D4618B5EA620016B3DA /* Hon-Prefix.pch */,
@@ -134,22 +229,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A19B7D5D18B5EA620016B3DA /* HonTests */ = {
+		A19B7D6D18B5EA760016B3DA /* ECSlidingViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A19B7D6318B5EA620016B3DA /* HonTests.m */,
-				A19B7D5E18B5EA620016B3DA /* Supporting Files */,
+				A19B7D6E18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.h */,
+				A19B7D6F18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.m */,
+				A19B7D7018B5EA760016B3DA /* ECSlidingAnimationController.h */,
+				A19B7D7118B5EA760016B3DA /* ECSlidingAnimationController.m */,
+				A19B7D7218B5EA760016B3DA /* ECSlidingConstants.h */,
+				A19B7D7318B5EA760016B3DA /* ECSlidingInteractiveTransition.h */,
+				A19B7D7418B5EA760016B3DA /* ECSlidingInteractiveTransition.m */,
+				A19B7D7518B5EA760016B3DA /* ECSlidingSegue.h */,
+				A19B7D7618B5EA760016B3DA /* ECSlidingSegue.m */,
+				A19B7D7718B5EA760016B3DA /* ECSlidingViewController.h */,
+				A19B7D7818B5EA760016B3DA /* ECSlidingViewController.m */,
+				A19B7D7918B5EA760016B3DA /* UIViewController+ECSlidingViewController.h */,
+				A19B7D7A18B5EA760016B3DA /* UIViewController+ECSlidingViewController.m */,
 			);
-			path = HonTests;
-			sourceTree = "<group>";
-		};
-		A19B7D5E18B5EA620016B3DA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A19B7D5F18B5EA620016B3DA /* HonTests-Info.plist */,
-				A19B7D6018B5EA620016B3DA /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = ECSlidingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +325,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A130B59718BA3F340057E1BA /* TOC.png in Resources */,
+				A130B59318BA3F1D0057E1BA /* settings.png in Resources */,
+				A130B5A618BA41F40057E1BA /* A Book.txt in Resources */,
+				A130B59B18BA40D20057E1BA /* Default-568h@2x.png in Resources */,
+				A130B59118BA3B840057E1BA /* library.png in Resources */,
+				A19B7D8818B5EEDF0016B3DA /* Main.storyboard in Resources */,
+				A130B5A718BA41F40057E1BA /* Another Book.txt in Resources */,
+				A130B59D18BA40D20057E1BA /* Default@2x.png in Resources */,
 				A19B7D5118B5EA620016B3DA /* Images.xcassets in Resources */,
 				A19B7D4318B5EA620016B3DA /* InfoPlist.strings in Resources */,
-				A19B7D4C18B5EA620016B3DA /* Main.storyboard in Resources */,
+				A130B59518BA3F260057E1BA /* bookmark.png in Resources */,
+				A185E96818BCD9240059C0F0 /* honnoicon.png in Resources */,
+				A130B58F18BA39ED0057E1BA /* read.png in Resources */,
+				A130B59C18BA40D20057E1BA /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19B7D6218B5EA620016B3DA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +356,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19B7D4F18B5EA620016B3DA /* ViewController.m in Sources */,
+				A198C71D18B6062E000AC770 /* LibraryViewController.m in Sources */,
+				A19B7D7D18B5EA760016B3DA /* ECSlidingInteractiveTransition.m in Sources */,
+				A19B7D8618B5EE9F0016B3DA /* MenuViewController.m in Sources */,
 				A19B7D4918B5EA620016B3DA /* AppDelegate.m in Sources */,
+				A19B7D7F18B5EA760016B3DA /* ECSlidingViewController.m in Sources */,
+				A19B7D7E18B5EA760016B3DA /* ECSlidingSegue.m in Sources */,
+				A198C72318B61186000AC770 /* TextProcessor.m in Sources */,
 				A19B7D4518B5EA620016B3DA /* main.m in Sources */,
+				A19D309F18B725A80054AF67 /* BookmarkViewController.m in Sources */,
+				A198C72918B6198A000AC770 /* PageContentViewController.m in Sources */,
+				A198C72F18B64D82000AC770 /* VerticalTextView.m in Sources */,
+				A19B7D7B18B5EA760016B3DA /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				A19B7D8018B5EA760016B3DA /* UIViewController+ECSlidingViewController.m in Sources */,
+				A198C72618B6121F000AC770 /* ReadViewController.m in Sources */,
+				A19B7D7C18B5EA760016B3DA /* ECSlidingAnimationController.m in Sources */,
+				A19D30A218B726040054AF67 /* TOCViewController.m in Sources */,
+				A19D309C18B7258F0054AF67 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19B7D6418B5EA620016B3DA /* HonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,22 +398,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A19B7D4218B5EA620016B3DA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A19B7D4A18B5EA620016B3DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A19B7D4B18B5EA620016B3DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A19B7D6018B5EA620016B3DA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A19B7D6118B5EA620016B3DA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -376,8 +480,7 @@
 		A19B7D6818B5EA620016B3DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hon/Hon-Prefix.pch";
 				INFOPLIST_FILE = "Hon/Hon-Info.plist";
@@ -389,8 +492,7 @@
 		A19B7D6918B5EA620016B3DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hon/Hon-Prefix.pch";
 				INFOPLIST_FILE = "Hon/Hon-Info.plist";
@@ -460,6 +562,7 @@
 				A19B7D6918B5EA620016B3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A19B7D6A18B5EA620016B3DA /* Build configuration list for PBXNativeTarget "HonTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +571,7 @@
 				A19B7D6C18B5EA620016B3DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
